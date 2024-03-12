@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splashincriative</title>
 
+    <link href="img/favicon.ico" rel="icon">
+
     <!-- Estilo CSS --> 
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,15 +24,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nanum+Myeongjo&family=Pacifico&display=swap" rel="stylesheet">
  
-       </body>
-          
 
-</head> <!---->
-<!-- Criar Botao Mobile>
-  <i> </i> i= Icone -->    
+      </head>
+       </body>
+     <i class="bi bi-list mobile-nav-toggle d-xl-nome"></i>
+       <!-- Criar Botao Mobile-->
+
  <header id="header">
          <div class="d-flex flex-column">
-          <div class="profile"> <!-- div = Caixa -->
+          <div class="profile"> <!-- Caixa -->
          <img src="img/logo.jpg" alt="" class="img-fluid rounded-circle"> 
           <h1 class="text-light"> 
             <a href="index.html"> Splashincriative </a>
@@ -478,7 +480,7 @@
   <div class="container">
 
     <div class="section-title">
-     <a href="#hero"> <h2>Serviços</h2> </a>
+     <a href="#hero"><h2>Serviços</h2></a>
      
 
     <div class="row">
@@ -589,6 +591,82 @@
 
   </div>
 </section><!-- Fim Seção Depoimentos -->
+
+<!-- Seção Contato -->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contato</h2>
+      <p>Em casos de dúvidas, entre em contato conosco. Iremos te ajudar</p>
+    </div>
+
+    <div class="row" data-aos="fade-in">
+
+      <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Local:</h4>
+            <p>Alameda Santos, 211 - Conjunto 2010 - Paraíso, São Paulo - SP, 01419-000</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>splashincrive@hotmail.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Telefone:</h4>
+            <p>11 2568-1145</p>
+          </div>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14627.710913546432!2d-46.6472553!3d-23.571039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59be1a9e8853%3A0xa89c097037410234!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Paulista%20Boulevard!5e0!3m2!1spt-BR!2sbr!4v1710242043753!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+    </div>
+
+
+    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="name">Seu nome</label>
+              <input type="text" name="name" class="form-control" id="name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="name">Email</label>
+              <input type="email" class="form-control" name="email" id="email" required>
+            </div>
+          
+          </div>
+          <div class="form-group">
+            <label for="name">Assunto</label>
+            <input type="text" class="form-control" name="subject" id="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="name">Deixe seu comentário</label>
+            <textarea class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Carregando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Agradecemos pela preferência</div>
+          </div>
+          <div class="text-center"><button type="submit">Enviar comentário</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div> <!-- Fim Formulário -->
+</section><!-- Fim Seção Contato -->
+
+</main><!-- End #main -->
+
 
 
       
